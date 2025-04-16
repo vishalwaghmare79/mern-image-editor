@@ -1,6 +1,6 @@
 # AI-Powered Image Annotation Dashboard
 
-![Dashboard Preview](./screenshots/dashboard-preview.gif)
+![Dashboard Preview](./screenshots/dashboard-preview.png)
 
 A sophisticated image annotation platform combining TensorFlow.js for AI-powered boundary detection and Konva.js for interactive editing. Built with the MERN stack for full-stack efficiency.
 
