@@ -1,4 +1,3 @@
-```markdown
 # AI-Powered Image Annotation Dashboard
 
 ![Dashboard Preview](./screenshots/dashboard-preview.gif)
@@ -80,43 +79,3 @@ npm install
 cp .env.example .env
 # Configure your .env file
 npm start
-```
-
-### Frontend Setup
-```bash
-cd client
-npm install
-npm run dev
-```
-
-## Configuration
-
-### Key Environment Variables
-```env
-# Server
-PORT=5000
-MONGO_URI=mongodb+srv://your-connection-string
-JWT_SECRET=your_secure_secret
-
-# Client
-VITE_API_URL=http://localhost:5000/api
-```
-
-## Development Workflow
-
-1. **Automatic Boundary Detection**:
-   ```javascript
-   // Using TensorFlow.js COCO-SSD model
-   const model = await cocoSsd.load()
-   const predictions = await model.detect(imageElement)
-   ```
-
-## Performance Benchmarks
-
-| Operation | Average Time |
-|-----------|-------------|
-| Image Upload | 1.2s |
-| TF.js Detection (1080p) | 3.8s |
-| Boundary Edit Sync | 0.4s |
-
----
