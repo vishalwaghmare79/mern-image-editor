@@ -25,7 +25,7 @@ const comparePassword = async (password, hashPassword) => {
 
 const generateToken = (user) => {
     try {
-        return jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "1d" });
+        return jwt.sign({ _id: user._id }, process.env.JWT_SECRET, { expiresIn: "1d" });
     } catch (error) {
         console.log("error in generating token", error);
         throw error;
