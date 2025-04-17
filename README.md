@@ -1,7 +1,6 @@
-```markdown
 # AI-Powered Image Annotation Dashboard
 
-![Dashboard Preview](./screenshots/dashboard-preview.gif)
+![Dashboard Preview](./screenshots/upload-flow.png)
 
 A sophisticated image annotation platform combining TensorFlow.js for AI-powered boundary detection and Konva.js for interactive editing. Built with the MERN stack for full-stack efficiency.
 
@@ -118,5 +117,3 @@ VITE_API_URL=http://localhost:5000/api
 | Image Upload | 1.2s |
 | TF.js Detection (1080p) | 3.8s |
 | Boundary Edit Sync | 0.4s |
-
----
